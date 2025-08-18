@@ -16,8 +16,8 @@ export default function Header() {
             <Image
               src={process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRCLOGO.jpg' : '/assets/BRCLOGO.jpg'}
               alt="Brunei Red Crescent Logo"
-              width={40}
-              height={40}
+              width={60}
+              height={60}
               className="rounded-full"
             />
             <span className="ml-3 font-montserrat font-bold text-lg text-brc-red">

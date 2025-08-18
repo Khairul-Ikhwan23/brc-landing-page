@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRCLOGO.jpg' : '/assets/BRCLOGO.jpg',
-    shortcut: process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRCLOGO.jpg' : '/assets/BRCLOGO.jpg',
-    apple: process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRCLOGO.jpg' : '/assets/BRCLOGO.jpg',
+    icon: process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRC VL transp.png' : '/assets/BRC VL transp.png',
+    shortcut: process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRC VL transp.png' : '/assets/BRC VL transp.png',
+    apple: process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRC VL transp.png' : '/assets/BRC VL transp.png',
   },
 }
 
