@@ -14,7 +14,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Image
-              src="/assets/BRCLOGO.jpg"
+              src={process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/BRCLOGO.jpg' : '/assets/BRCLOGO.jpg'}
               alt="Brunei Red Crescent Logo"
               width={40}
               height={40}

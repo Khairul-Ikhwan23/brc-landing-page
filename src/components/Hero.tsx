@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/brccrew.jpg"
+          src={process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/brccrew.jpg' : '/assets/brccrew.jpg'}
           alt="BRC Crew serving the community"
           fill
           className="object-cover"
