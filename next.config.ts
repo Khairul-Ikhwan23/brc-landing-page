@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   basePath: process.env.NODE_ENV === 'production' ? '/brc-landing-page' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/brc-landing-page/' : '',
 };
 
 export default nextConfig;

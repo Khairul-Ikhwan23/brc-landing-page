@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: '/assets/BRCLOGO.jpg',
+    shortcut: '/assets/BRCLOGO.jpg',
+    apple: '/assets/BRCLOGO.jpg',
+  },
 }
 
 export default function RootLayout({
