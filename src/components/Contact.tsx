@@ -19,8 +19,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@bruneiredcrescent.org.bn',
-    href: 'mailto:info@bruneiredcrescent.org.bn'
+    value: 'admin.inquiry@bruneiredcrescent.com',
+    href: 'mailto:admin.inquiry@bruneiredcrescent.com'
   }
 ]
 
