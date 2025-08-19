@@ -20,9 +20,7 @@ export default function Header() {
               height={60}
               className="rounded-full"
             />
-            <span className="ml-3 font-montserrat font-bold text-lg text-brc-red">
-              BRC
-            </span>
+            
           </div>
 
           {/* Desktop Navigation */}

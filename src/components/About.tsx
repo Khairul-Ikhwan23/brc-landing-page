@@ -108,7 +108,7 @@ export default function About() {
           className="text-center mt-12"
         >
           <a
-            href="/history"
+            href="brc-landing-page/history"
             className="btn-secondary inline-flex items-center gap-2"
           >
             Read More About Our History
