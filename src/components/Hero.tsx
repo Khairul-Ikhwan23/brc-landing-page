@@ -51,7 +51,7 @@ export default function Hero() {
             </motion.a>
             
             <motion.a
-              href="/donate"
+              href="donate"
               className="btn-secondary text-lg px-8 py-4"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
