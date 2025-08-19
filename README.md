@@ -192,7 +192,7 @@ This project is for the Brunei Red Crescent Society. All rights reserved.
 ## 📞 Support
 
 For questions or support:
-- Email: info@bruneiredcrescent.org.bn
+- Email: admin.inquiry@bruneiredcrescent.com
 - Phone: +673 123 4567
 
 ---
