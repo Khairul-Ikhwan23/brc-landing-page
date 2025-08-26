@@ -32,7 +32,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl sm:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
-            Join Brunei Red Crescent in our mission to provide humanitarian aid, 
+            Join Brunei Darussalam Red Crescent Society (BRC) in our mission to provide humanitarian aid, 
             emergency response, and community support across Brunei Darussalam.
           </p>
 
