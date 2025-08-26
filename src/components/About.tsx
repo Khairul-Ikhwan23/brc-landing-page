@@ -11,8 +11,8 @@ const timeline = [
   },
   {
     year: '1990',
-    title: 'Incorporated as Brunei Darussalam Red Crescent',
-    description: 'Official incorporation as a national society under the name Brunei Darussalam Red Crescent.'
+    title: 'Incorporated as Brunei Darussalam Red Crescent Society (BRC)',
+    description: 'Official incorporation as a national society under the name Brunei Darussalam Red Crescent Society (BRC).'
   },
   {
     year: '1996',

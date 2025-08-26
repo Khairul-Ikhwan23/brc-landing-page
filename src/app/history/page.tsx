@@ -49,10 +49,10 @@ export default function HistoryPage() {
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <h3 className="font-montserrat font-bold text-2xl text-brc-red mb-4">1990</h3>
-                <h4 className="font-semibold text-xl mb-3">Incorporated as Brunei Darussalam Red Crescent</h4>
+                <h4 className="font-semibold text-xl mb-3">Incorporated as Brunei Darussalam Red Crescent Society (BRC)</h4>
                 <p className="text-gray-600 leading-relaxed">
                   Official incorporation as a national society under the name Brunei Darussalam 
-                  Red Crescent. This formal recognition allowed the organization to expand its 
+                  Red Crescent Society (BRC). This formal recognition allowed the organization to expand its 
                   services and establish a stronger presence in the community.
                 </p>
               </div>

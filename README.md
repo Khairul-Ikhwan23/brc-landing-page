@@ -1,6 +1,6 @@
-# Brunei Red Crescent Landing Page
+# Brunei Red Crescent Society (BRC) Landing Page
 
-A modern, responsive landing page for the Brunei Red Crescent Society built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive landing page for the Brunei Red Crescent Society (BRC) built with Next.js, TypeScript, and Tailwind CSS.
 
 ## 🎯 Features
 
