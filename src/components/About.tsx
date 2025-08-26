@@ -46,7 +46,7 @@ export default function About() {
             Our Story
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            For over 75 years, Brunei Red Crescent has been at the forefront of humanitarian 
+            For over 75 years, Brunei Darussalam Red Crescent Society (BRC) has been at the forefront of humanitarian 
             assistance, serving the people of Brunei Darussalam with dedication and compassion.
           </p>
         </motion.div>
