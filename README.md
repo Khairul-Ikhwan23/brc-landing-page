@@ -195,6 +195,12 @@ For questions or support:
 - Email: admin.inquiry@bruneiredcrescent.com
 - Phone: +673 123 4567
 
+## Changelogs (refinements)
+
+26 Aug 2025
+- Changed BRC reference to Brunei Darussalam Red Crescent Society (BRC)
+- Photos of the leadership team and their designations (Waiting for resources from BRC)
+
 ---
 
 Built with ❤️ for the Brunei Red Crescent Society
