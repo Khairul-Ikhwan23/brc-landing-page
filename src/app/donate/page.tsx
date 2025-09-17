@@ -43,7 +43,6 @@ export default function DonatePage() {
                   <p>Bank Name: [Bank Name]</p>
                   <p>Account Name: Brunei Red Crescent Society</p>
                   <p>Account Number: [Account Number]</p>
-                  <p>Branch: [Branch Name]</p>
                 </div>
                 
                 <div>

@@ -7,14 +7,14 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Brunei Red Crescent Society, Bandar Seri Begawan, Brunei Darussalam',
+    value: 'Upper Level, Bunut Post Office, Jalan Haji Halus, Kampong Bunut, Bandar Seri Begawan BF1320, Brunei Darussalam',
     href: null
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+673 123 4567',
-    href: 'tel:+6731234567'
+    value: '+673 22652989 (Office); +673 7187 959',
+    href: 'tel:+67322652989'
   },
   {
     icon: Mail,
@@ -94,46 +94,29 @@ export default function Contact() {
             </div>
 
             {/* Social Links */}
-            <div className="mt-8">
-              <h4 className="font-semibold text-lg mb-4">Follow Us</h4>
-              <div className="flex gap-4">
-                {socialLinks.map((social, index) => (
-                  <motion.a
-                    key={social.label}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 rounded-lg bg-gray-800 hover:bg-brc-red transition-colors duration-200"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.3, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                    whileHover={{ scale: 1.1 }}
-                    aria-label={social.label}
-                  >
-                    <social.icon className="w-5 h-5" />
-                  </motion.a>
-                ))}
-              </div>
-            </div>
+            
+            
           </motion.div>
 
-          {/* Map Placeholder */}
+          {/* Embedded Google Map */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-gray-800 rounded-lg p-8 flex items-center justify-center"
+            className="bg-gray-800 rounded-lg overflow-hidden"
           >
-            <div className="text-center">
-              <MapPin className="w-16 h-16 text-gray-600 mx-auto mb-4" />
-              <p className="text-gray-400">
-                Interactive map will be embedded here
-              </p>
-              <p className="text-sm text-gray-500 mt-2">
-                Google Maps integration
-              </p>
+            <div className="w-full h-[380px] md:h-full">
+              <iframe
+                title="BRC Office Location"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+                src={`https://www.google.com/maps?q=${encodeURIComponent('Upper Level, Bunut Post Office, Jalan Haji Halus, Kampong Bunut, Bandar Seri Begawan BF1320, Brunei Darussalam')}&output=embed`}
+              />
             </div>
           </motion.div>
         </div>
