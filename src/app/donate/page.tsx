@@ -40,9 +40,9 @@ export default function DonatePage() {
               <div className="space-y-4 text-gray-600">
                 <div>
                   <p className="font-semibold text-gray-800">Bank Details:</p>
-                  <p>Bank Name: [Bank Name]</p>
-                  <p>Account Name: Brunei Red Crescent Society</p>
-                  <p>Account Number: [Account Number]</p>
+                  <p>Bank Name: Bank Islam Brunei Darussalam (BIBD)</p>
+                  <p>Account Name: Brunei Red Crescent</p>
+                  <p>Account Number: 00-001-01-009883-3</p>
                 </div>
                 
                 <div>
