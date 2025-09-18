@@ -16,9 +16,9 @@ export default function Header() {
             <Image
               src="/assets/BRCLOGO.jpg"
               alt="Brunei Red Crescent Logo"
-              width={60}
+              width={50}
               height={60}
-              className="rounded-full"
+              className="rounded-lg"
             />
             
           </div>
@@ -38,7 +38,7 @@ export default function Header() {
               Contact
             </a>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSduyiv9lQ8zEV3bKR6q2_cqgSICVMhwuaR2EFcbB0EOlZUghQ/viewform?usp=header"
+              href="https://docs.google.com/forms/d/1YA6J6U6Zgx_r-TlTWa0d20CPJtG5TYnjuPwxbtMmCNo"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -90,7 +90,7 @@ export default function Header() {
                 Contact
               </a>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSduyiv9lQ8zEV3bKR6q2_cqgSICVMhwuaR2EFcbB0EOlZUghQ/viewform?usp=header"
+                href="https://docs.google.com/forms/d/1YA6J6U6Zgx_r-TlTWa0d20CPJtG5TYnjuPwxbtMmCNo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full justify-center"

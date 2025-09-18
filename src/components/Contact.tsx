@@ -7,14 +7,14 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Upper Level, Bunut Post Office, Jalan Haji Halus, Kampong Bunut, Bandar Seri Begawan BF1320, Brunei Darussalam',
+    value: 'BRC National Headquarters Unit L01-02, Mezzanine Floor, Annajat complex, Kampong Mata-Mata, Jalan Beribi, Gadong Bandar Seri Begawan BF1718 Brunei Darussalam',
     href: null
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+673 22652989 (Office); +673 7187 959',
-    href: 'tel:+67322652989'
+    value: '+673 818 2143',
+    href: 'tel:+673 818 2143'
   },
   {
     icon: Mail,
@@ -25,10 +25,7 @@ const contactInfo = [
 ]
 
 const socialLinks = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Youtube, href: '#', label: 'YouTube' }
+  { icon: Instagram, href: 'https://www.instagram.com/brunei_redcrescent/', label: 'Instagram' },
 ]
 
 export default function Contact() {
@@ -94,6 +91,28 @@ export default function Contact() {
             </div>
 
             {/* Social Links */}
+            <div className="mt-8">
+              <h4 className="font-semibold text-lg mb-4">Follow Us</h4>
+              <div className="flex gap-4">
+                {socialLinks.map((social, index) => (
+                  <motion.a
+                    key={social.label}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-lg bg-gray-800 hover:bg-brc-red transition-colors duration-200"
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.3, delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                    whileHover={{ scale: 1.1 }}
+                    aria-label={social.label}
+                  >
+                    <social.icon className="w-5 h-5" />
+                  </motion.a>
+                ))}
+              </div>
+            </div>
             
             
           </motion.div>
@@ -115,7 +134,7 @@ export default function Contact() {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-                src={`https://www.google.com/maps?q=${encodeURIComponent('Upper Level, Bunut Post Office, Jalan Haji Halus, Kampong Bunut, Bandar Seri Begawan BF1320, Brunei Darussalam')}&output=embed`}
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127205.041717734!2d114.895049!3d4.913291!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32226000a86459d3%3A0x33c145b4b2a8200d!2sAnnajat%20Complex!5e0!3m2!1sen!2sus!4v1758182778503!5m2!1sen!2sus"
               />
             </div>
           </motion.div>
