@@ -7,14 +7,14 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'BRC National Headquarters Unit L01-02, Mezzanine Floor, Annajat complex, Kampong Mata-Mata, Jalan Beribi, Gadong Bandar Seri Begawan BF1718 Brunei Darussalam',
+    value: 'BRC National Headquarters Unit L01-02, Mezzanine Floor, Annajat complex, Kampong Mata-Mata, Jalan Beribi, Gadong Bandar Seri Begawan BF1718 Brunei Darussalam.',
     href: null
   },
   {
     icon: Phone,
     label: 'Phone',
     value: '+673 818 2143',
-    href: 'tel:+673 818 2143'
+    href: 'tel:+6738182143'
   },
   {
     icon: Mail,
@@ -25,6 +25,7 @@ const contactInfo = [
 ]
 
 const socialLinks = [
+
   { icon: Instagram, href: 'https://www.instagram.com/brunei_redcrescent/', label: 'Instagram' },
 ]
 
@@ -113,7 +114,6 @@ export default function Contact() {
                 ))}
               </div>
             </div>
-            
             
           </motion.div>
 

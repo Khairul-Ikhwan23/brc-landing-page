@@ -16,23 +16,29 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Brunei Red Crescent (BRC) — Serving Humanity, Saving Lives',
-  description: 'Brunei Red Crescent (BRC) provides first aid, medical coverage, psychological support, wellness programs, and emergency response across Brunei. Join us as a volunteer or supporter.',
-  keywords: 'Brunei Red Crescent, BRC, humanitarian, first aid, volunteer, emergency response, Brunei',
+  metadataBase: new URL('https://bruneiredcrescent.com'),
+  title: 'Brunei Red Crescent Society (BRC) — Serving Humanity, Saving Lives',
+  description: 'Brunei Red Crescent Society (BRC) provides first aid training, event medical coverage, psychosocial support, wellness programs, and emergency response across Brunei. Volunteer or partner with us.',
+  keywords: 'Brunei Red Crescent, BRC, humanitarian, first aid, volunteer, emergency response, Brunei, psychosocial support, medical coverage',
   openGraph: {
-    title: 'Brunei Red Crescent (BRC) — Serving Humanity, Saving Lives',
-    description: 'Brunei Red Crescent (BRC) provides first aid, medical coverage, psychological support, wellness programs, and emergency response across Brunei. Join us as a volunteer or supporter.',
+    title: 'Brunei Red Crescent Society (BRC) — Serving Humanity, Saving Lives',
+    description: 'Official website of BRC: first aid, medical coverage, psychosocial support, wellness, and emergency response in Brunei.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://bruneiredcrescent.com/',
+    images: ['/assets/BRCLOGO.jpg'],
   },
   robots: {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: 'https://bruneiredcrescent.com/',
+  },
   icons: {
-    icon: '/assets/BRC VL transp.png',
-    shortcut: '/assets/BRC VL transp.png',
-    apple: '/assets/BRC VL transp.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 }
 
