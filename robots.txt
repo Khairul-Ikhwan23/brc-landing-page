@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://bruneiredcrescent.com
+Sitemap: https://bruneiredcrescent.com/sitemap.xml
