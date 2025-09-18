@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube } from 'lucide-react'
+import { Mail, Phone, MapPin, Instagram } from 'lucide-react'
 
 const contactInfo = [
   {
