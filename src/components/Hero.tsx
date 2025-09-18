@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src={process.env.NODE_ENV === 'production' ? '/brc-landing-page/assets/brccrew.jpg' : '/assets/brccrew.jpg'}
+          src="/assets/brccrew.jpg"
           alt="BRC Crew serving the community"
           fill
           className="object-cover"
@@ -51,7 +51,7 @@ export default function Hero() {
             </motion.a>
             
             <motion.a
-              href="donate"
+              href="/donate"
               className="btn-secondary text-lg px-8 py-4"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
