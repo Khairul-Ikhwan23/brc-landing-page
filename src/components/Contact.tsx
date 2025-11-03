@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+673 818 2143',
-    href: 'tel:+6738182143'
+    value: '+673 813 9143',
+    href: 'tel:+6738139143'
   },
   {
     icon: Mail,
