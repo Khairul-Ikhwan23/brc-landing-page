@@ -9,7 +9,7 @@ const stats = [
   {
     icon: Clock,
     number: 77,
-    suffix: 'years',
+    suffix: ' years',
     label: 'In Action',
     description: 'Serving Brunei since 1948'
   },
@@ -57,7 +57,7 @@ function Counter({ end, suffix = '', duration = 2 }: { end: number; suffix?: str
 
   return (
     <span ref={ref} className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brc-red">
-      {count.toLocaleString()}{suffix}
+      {count.toLocaleString()}{suffix ? ` ${suffix.trim()}` : ''}
     </span>
   )
 }
